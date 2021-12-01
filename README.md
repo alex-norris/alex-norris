@@ -1,5 +1,5 @@
-Hello! I’m @alex-norris
-I work in a tech/finance role and, occasionally using sql and python to analyze and automate life
+Hello! I’m @alex-norris </br>
+I work in a tech/finance role and, occasionally using sql and python to analyze and automate life </br>
 I also like weird keyboards, and daily an ergodox at the office, and a g Heavy gergo at home
 
 <!---
