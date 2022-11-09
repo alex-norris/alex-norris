@@ -1,6 +1,6 @@
 import random
 
-committee = []
+committeeMenCounts = []
 committeeSize = 4
 
 for j in range(10000):  # how many iterations?
@@ -10,7 +10,7 @@ for j in range(10000):  # how many iterations?
         # remove random prof and add to running total if man:
         menCount += profs.pop(random.randint(0,len(profs)-1))
     # add the number of men in this committee to running tally:
-    committee.append(menCount)
+    committeeMenCounts.append(menCount)
 
 # average number of men per committee, as a ratio
-print(sum(committee)/len(committee)/committeeSize)
+print(sum(committeeMenCounts)/len(committeeMenCounts)/float(committeeSize))
